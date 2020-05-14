@@ -73,7 +73,8 @@ define root view entity ZC_TRAVEL_M_184
       @UI.identification: [ { position: 70, label: 'Remarks' } ]
       description        as Description,
 
-      @UI.hidden: true
+      //      @UI.hidden: true
+      @UI.identification: [ { position: 80, label: 'Last Change' } ]
       last_changed_at    as LastChangedAt
 
 }
